@@ -4,9 +4,8 @@
  *
  * Return: 0
  */
-char main(void)
+int main(void)
 {
-	str = ("\"Programming is like building a multilingual puzzle\n");
-	puts(str);
+	puts("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
