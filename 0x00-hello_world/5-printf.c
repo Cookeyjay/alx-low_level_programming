@@ -2,6 +2,8 @@
 /**
  * main - Entry
  *
+ * Description: Using the msin
+ * function,.
  * Return : 0
  */
 int main(void)
