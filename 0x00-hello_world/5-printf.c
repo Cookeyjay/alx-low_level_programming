@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - prints the string in the print function.
+ * main - Prints the entry string
  *
- * Description: Using the msin function. This program prints "with proper grammar, but the outcome is a piece of art,"
- * Return : 0
+ * Description: Using the main function
+ * This program prints with proper grammar, but the outcome is a piece of art
+ * Return: 0
  */
 int main(void)
 {
