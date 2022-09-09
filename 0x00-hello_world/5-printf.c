@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main - prints the string in the print function.
  *
- * Description: Using the msin
- * function,.
+ * Description: Using the msin function. This program prints "with proper grammar, but the outcome is a piece of art,"
  * Return : 0
  */
 int main(void)
