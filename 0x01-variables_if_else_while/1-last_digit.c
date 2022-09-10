@@ -4,7 +4,7 @@
 /**
  * main - prints the last digit of a random number
  *
- * Description: This prints the last digit of the variable using the main function
+ * Description: prints the last digit of the variable using the main function
  * Return: 0
  */
 int main(void)
