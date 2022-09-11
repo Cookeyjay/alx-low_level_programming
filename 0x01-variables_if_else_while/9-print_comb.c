@@ -3,7 +3,7 @@
 /**
  * main - prints all possible combinations of single-digit numbers.
  *
- * Description: Use the main function toprint single-digit numbers with space & ,
+ * Description: Use the main function toprint single numbers with space & ,
  * Return: 0
  */
 int main(void)
@@ -15,6 +15,10 @@ int main(void)
 		putchar((n % 10) + '0');
 		putchar(',');
 		putchar(' ');
+		if (n = 9)
+		{
+			putchar(n);
+		}
 	}
 	putchar('\n');
 
