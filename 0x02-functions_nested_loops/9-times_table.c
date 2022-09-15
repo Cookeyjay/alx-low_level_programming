@@ -7,8 +7,7 @@ void times_table(void)
 {
 	int n;
 	int j;
-
-	prod;
+	int prod;
 
 	prod = n * j;
 
