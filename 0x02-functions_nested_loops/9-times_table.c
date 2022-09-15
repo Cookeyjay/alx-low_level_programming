@@ -9,12 +9,11 @@ void times_table(void)
 	int j;
 	int prod;
 
-	prod = n * j;
-
 	for (n = 0; n <= 9; n++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
+			prod = n * j;
 			if (prod >= 10)
 			{
 				_putchar((prod / 10) + '0');
