@@ -27,14 +27,16 @@ void times_table(void)
 			if (j == 9)
 				continue;
 			_putchar(',');
-			_putchar(' ');
 			if (prod < 10)
 			{
 				_putchar(' ');
 			}
+			if (prod >= 10)
+				_putchar(' ');
 			sum = prod + n;
 			if (sum >= 10)
 				continue;
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
