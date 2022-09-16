@@ -8,6 +8,7 @@ void times_table(void)
 	int n;
 	int j;
 	int prod;
+	int sum;
 
 	for (n = 0; n <= 9; n++)
 	{
@@ -30,6 +31,9 @@ void times_table(void)
 			{
 				_putchar(' ');
 			}
+			sum = prod + n;
+			if (sum >= 10)
+				continue;
 			_putchar(' ');
 		}
 		_putchar('\n');
