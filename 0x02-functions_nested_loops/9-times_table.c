@@ -30,8 +30,6 @@ void times_table(void)
 			_putchar(',');
 			if (prod < 10)
 			{
-				if (sum >= 10)
-					continue;
 				_putchar(' ');
 			}
 			_putchar(' ');
