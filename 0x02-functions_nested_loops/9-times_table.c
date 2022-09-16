@@ -27,6 +27,7 @@ void times_table(void)
 			if (j == 9)
 				continue;
 			_putchar(',');
+			_putchar(' ');
 			if (prod < 10)
 			{
 				_putchar(' ');
@@ -34,7 +35,6 @@ void times_table(void)
 			sum = prod + n;
 			if (sum >= 10)
 				continue;
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
