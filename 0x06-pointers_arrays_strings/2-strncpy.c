@@ -9,8 +9,9 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	n = sizeof(dest) - strlen(dest) - 1;
+	n = sizeof(dest) - strlen(dest);
 	_strncpy(dest, src, n);
+	dest[sizeof(dest) - 1] = '\0';
 
 	return (dest);
 }
