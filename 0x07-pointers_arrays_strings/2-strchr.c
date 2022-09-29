@@ -10,10 +10,14 @@ char *_strchr(char *s, char c)
 {
 	unsigned int i;
 
-	s[i];
-	if (i == c)
+	while (s[i] != '\0')
 	{
-		return (s);
+		s[i];
+		if (i == c)
+		{
+			return (s);
+		}
+		i++;
 	}
 	return NULL;
 }
