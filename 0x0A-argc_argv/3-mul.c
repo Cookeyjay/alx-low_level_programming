@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b, mul;
-	
+
 	if (argc == 3)
 	{
 		a = atoi(argv[1]);
