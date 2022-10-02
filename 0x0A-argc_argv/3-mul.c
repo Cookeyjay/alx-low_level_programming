@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 	
 	if (argc == 3)
 	{
-		a = atoi(argv[i]);
-		b = atoi(argv[i++]);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
 		mul = a * b;
 		printf("%d\n", mul);
 		return (0);
